@@ -1,0 +1,70 @@
+/* Background */
+body {
+  background-color: #0e1117;
+}
+
+/* Main App */
+.main {
+  background-color: #0e1117;
+}
+
+/* Title Styling */
+h1 {
+  color: #00ffaa;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Subtitle */
+h2,
+h3 {
+  color: #ffffff;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+  background-color: #161a23;
+  border-right: 1px solid #2a2f3a;
+}
+
+/* Cards */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.stButton > button {
+  background-color: #00ffaa;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.stButton > button:hover {
+  background-color: #00cc88;
+}
+
+/* Success / Prediction */
+.success-box {
+  background-color: #00ffaa20;
+  padding: 15px;
+  border-radius: 10px;
+  color: #00ffaa;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Error / Churn Warning */
+.error-box {
+  background-color: #ff4b4b20;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ff4b4b;
+  font-weight: bold;
+  text-align: center;
+}
